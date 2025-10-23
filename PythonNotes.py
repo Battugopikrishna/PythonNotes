@@ -123,12 +123,23 @@ because python always count zero first.
 not only in python in every programming language count start with zero
 because programming language uses binary code and binary code always start with zero.
 Example: Gopi Battu
-         0123456789
-negative indexing is start with -1 and start position will be from last to first
+         0123456789 is called postive indexing count start from left to right
+negative indexing is start with -1 and start position will be from right to left
 Example:  G o p i
          -4-3-2-1          
 indexing as use '[]' to get the desire result
 """
-Name = 'Gopi'
-print(Name[0]) # output will get 'G'
-print(Name[-1]) #output will get 'i'
+# Name = 'Gopi'
+# print(Name[0]) # output will get 'G'
+# print(Name[-1]) #output will get 'i'
+# print(Name[1:3]) #output will get 'op'
+
+"""
+Joining two string called Concatenation of strings by using '+' in the print
+"""
+
+# a1 = 'Hello World!'
+# a2 = 'we are learning python'
+# print(a1 + a2) # in the output we don't see any space between 2 string
+# print(a1 + ' ' + a2) #in this output the space is created by using [' ']
+
