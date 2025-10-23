@@ -5,6 +5,7 @@ This is my personal Python Notes where I can use for my future refer and also to
 In the below code whatever having hashcode '#' you can remove that part of code and it will execute when you run
 if you wish to run multipule line of code and you need remove lot of '/' then there is a tip to do in a single click
 by selecting the required code just press 'cltr + / (in windows)' 'command + /(in MacOS)'
+same if you don't want to run the code and want to comment it use  the same commands.
 """
 # Python is high level programming language because this can be understood by users and the computer also
 # And Programming language is a medium which helps us to communicate with system
@@ -83,3 +84,51 @@ it will throw an error. so if want to know the keywords in python run the below 
 # import keyword      #first we need to import the keyword in the code.
 # print(keyword.kwlist)   #kwlist is a keyword to get all the list of keyword.
 
+"""
+Basic operations with the strings
+now we are learning how many type we have to write a string and 
+how to find the length of a string using 'len()'
+how to join two strings.
+"""
+
+# s1 = "hello world" # using double quotes
+# print(s1)
+# print(type(s1))
+#
+# s2 = 'hello world' # using single quotes
+# print(s2)
+# print(type(s2))
+#
+# s3 = """hello world
+# this is second line
+# this is third line"""  # this is with triple quotes.
+# print(s3)              # if the output print in single line and having '\n' then it represent has new line in the output.
+# print(type(s3))
+
+"""
+Find the length of a string using 'len()'
+and if you are using space in between the variable then it will also calculate and show in the length.
+"""
+
+# a1 = 'Gopi'
+# print(len(a1))
+# a2 = 'Gopi Krishna'
+# print(len(a2))
+
+"""
+What is indexing in python ?
+indexing is nothing but positioning of every letter in the string internal is called indexing.
+and indexing count start with '0, 1, 2, 3, ....' not like '1, 2, 3, ....' 
+because python always count zero first.
+not only in python in every programming language count start with zero
+because programming language uses binary code and binary code always start with zero.
+Example: Gopi Battu
+         0123456789
+negative indexing is start with -1 and start position will be from last to first
+Example:  G o p i
+         -4-3-2-1          
+indexing as use '[]' to get the desire result
+"""
+Name = 'Gopi'
+print(Name[0]) # output will get 'G'
+print(Name[-1]) #output will get 'i'
