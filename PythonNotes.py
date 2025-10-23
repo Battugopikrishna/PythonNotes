@@ -2,7 +2,7 @@
 This is my personal Python Notes where I can use for my future refer and also to available every thing
  in One Place"""
 """
-In the below code whatever having hashcode '#' you can remove that part of code will execute
+In the below code whatever having hashcode '#' you can remove that part of code and it will execute when you run
 if you wish to run multipule line of code and you need remove lot of '/' then there is a tip to do in a single click
 by selecting the required code just press 'cltr + / (in windows)' 'command + /(in MacOS)'
 """
