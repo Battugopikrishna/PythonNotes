@@ -270,3 +270,65 @@ in bool False will be False in String will be False
 # print(str(False))
 
                             ########End of the Type Casting and Type Conversion######
+"""
+Python operations
+operations are the operands uses operators is called operations
+for example a = 10 and y = a + 20 here
+a,y are variables
+10, 20 are values
+=, + are operators
+and variables and values are called as operands
+there are different types of operators
+they are:
+Arithmetic operator
+"""
+
+# #Arithmetic operator
+# num1 = 10
+# num2 = 3
+# #addition operator '+'
+# print(num1 + num2)
+# #Subtraction operator '-'
+# print(num1 - num2)
+# #Multiplication operator '*'
+# print(num1 * num2)
+# #Division operator '/'
+# print(num1 / num2) # Note: Division result will always be in float only.
+# #floor division operator '//'
+# print(num1 // num2) #Note: Floor division will be in integer because if the division is less than the remainder then the last quotient will be the answer
+# #modulus operator '%'
+# print(num1 % num2) #Note: Modulus operator gives you the remainder as the output
+# print(10 % 5)
+# #exponent operator '**'
+# print(num1 ** num2) #Now in the operator 10*10*10 answer will be output
+# print(5 ** 2) #5*5 is the answer
+# print(3 ** 4) #3*3*3*3 is the answer
+"""
+Assignment operator '='
+Assigning a value or a data to a variable using assign operator 
+example: a = 10 and Name = Gopi
+compound assigned operator { '+=', '-=', '*=', '/='}
+using arithmetic operator with the assignment is called compound assign operator
+example: if a = 10 and a += 10 then now a is 20.
+if you got a doubt how a became 20 this 
+compound assign works like this 
+first we assign a value to a variable
+and when we are using the compound assign operator
+the variable is holding a value in it and that value will be done math according to the Arithmetic operator
+and that result will re-assign to the same variable.
+"""
+
+# #Example of compound assign operators
+# num3 = 10
+# print(num3) # we assigned 10 to the num3
+# num3 += 1
+# print(num3) # here calculation will be num3 = num3 + 1. the result will update the num3 again
+# num3 -= 6
+# print(num3) # here calculation will be num3 = num3 - 6. the result will update the num3 again
+# num3 *= 10
+# print(num3) # here calculation will be num3 = num3 * 10. the result will update the num3 again
+# num3 /= 20
+# print(num3) # here calculation will be num3 = num3 / 20. the result will update the num3 again
+
+
+######## End of Arithmetic operators and assignment along with compound assign operators######
