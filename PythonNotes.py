@@ -133,7 +133,7 @@ indexing as use '[]' to get the desire result
 # Name = 'Gopi'
 # print(Name[0]) # output will get 'G'
 # print(Name[-1]) #output will get 'i'
-# print(Name[1:3]) #output will get 'op'
+
 
                        ######End of indexing in python########
 """
