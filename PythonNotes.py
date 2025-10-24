@@ -74,6 +74,7 @@ Primitive Datatypes
 # print(spl)
 # print(type(spl))
 
+                              #######End of Variable#########
 """
 There are few Keyword which we are use them in the python and 
 we can't use those keyword to assign any value
@@ -104,7 +105,6 @@ how to join two strings.
 # this is third line"""  # this is with triple quotes.
 # print(s3)              # if the output print in single line and having '\n' then it represent has new line in the output.
 # print(type(s3))
-
 """
 Find the length of a string using 'len()'
 and if you are using space in between the variable then it will also calculate and show in the length.
@@ -115,6 +115,7 @@ and if you are using space in between the variable then it will also calculate a
 # a2 = 'Gopi Krishna'
 # print(len(a2))
 
+                        #######End of Basic operations with the strings########
 """
 What is indexing in python ?
 indexing is nothing but positioning of every letter in the string internal is called indexing.
@@ -134,6 +135,7 @@ indexing as use '[]' to get the desire result
 # print(Name[-1]) #output will get 'i'
 # print(Name[1:3]) #output will get 'op'
 
+                       ######End of indexing in python########
 """
 Joining two string called Concatenation of strings by using '+' in the print
 """
@@ -143,3 +145,128 @@ Joining two string called Concatenation of strings by using '+' in the print
 # print(a1 + a2) # in the output we don't see any space between 2 string
 # print(a1 + ' ' + a2) #in this output the space is created by using [' ']
 
+                              ######End of Concatenation of strings###########
+"""
+Type conversion or type casting in python
+Type casting means changing the types of one datatype into other datatype
+exmaple: we can change integer into float and string
+and we can also convert string or float into integers
+Note: we can only convert the string into any integer or float when the string is having only numbers
+without any other characters.
+Note: if you are converting a float into integer then the value will be converted to the last rounding value.
+below are the few example of those type casting.
+"""
+
+# a = 100
+# print(a)
+# print(type(a))
+# #now the above variable is having int now we are changing into float by assigning 'a' to 'b' variables
+# b = float(a)
+# print(b)
+# print(type(b))
+# #now the int converted into float
+# #converting float to integer
+# c = 12.98
+# print(c)
+# print(type(c))
+# #changing the float to integer
+# d = int(c)
+# print(d)
+# print(type(d))
+# #As you see it printed as 12 by rounding up not 13
+# #now converting int into string and float into string
+# e = 100
+# print(e)
+# print(type(e))
+# f = 3.13
+# print(f)
+# print(type(f))
+# g = str(e)
+# print(g)
+# print(type(g))
+# h = str(f)
+# print(h)
+# print(type(h))
+# #now we will try to convert a string into float and integer
+# ss = '100'
+# print(ss)
+# print(type(ss))
+# hh = int(ss)
+# print(hh)
+# print(type(hh))
+# #changed string into integer
+# ii = '98.98'
+# print(ii)
+# print(type(ii))
+# gh = float(ii)
+# print(gh)
+# print(type(gh))
+# #changed into float from string
+# if you want to convert the string which has alphabets you will get the error
+# Name = 'hello'
+# print(Name)
+# print(type(Name))
+# nn = int(Name) # you will get this error : {ValueError: invalid literal for int() with base 10: 'hello'}
+# Name1 = 'Python3.13'
+# nh = float(Name1) #you will get this error: {ValueError: could not convert string to float: 'Python3.13'}
+"""
+Now we need to join 2 variable which has one string and one float using type casting
+Example: a = 'python' and b = 3.13 and we need the output of python3.13
+"""
+# a = 'python'
+# print(a)
+# print(type(a))
+# b = 3.13
+# print(b)
+# print(type(b))
+# c = str(print(a + str(b)))
+# print(type(c))
+
+"""
+Now we will try to add 2 string number as it is a integers
+example: val1 = '100' and val2 = '200' output before typecasting is '100200'
+after typecasting is '300'
+"""
+# val1 = '100'
+# print(val1)
+# print(type(val1))
+# val2 = '200'
+# print(val2)
+# print(type(val2))
+# print("result of adding 2 variables before using typecasting:", val1 + val2)
+# print(type(val1 + val2))
+# print("result using typecasting on the 2 variables:", int(val1) + int(val2))
+# print(type(int(val1) + int(val2)))
+
+"""
+Now we will try to type casting the boolean into other data type (int,float,str)
+and other data type (int,str,float) into Boolean 
+Note: From the other datatype if you want to convert into bool always print 'True'
+only number 0 and float 0.0 will be print as False and in the string 'False' will be false.
+"""
+# print(bool(True)) # bool true
+# print(bool(False)) #boolean false
+# print(bool(0)) # integer 0 into bool
+# print(bool(1)) #integer 1 into bool
+# print(bool(1000)) #integer 1000 into bool
+# print(bool(0.0)) #float 0.0 into bool
+# print(bool(0.1)) #float 0.1 into bool
+# print(bool(-100)) # negative integer into bool
+# print(bool('hello')) #string into bool
+# print(bool('False')) #string True into bool
+# print(bool('True')) #string False into bool
+
+"""
+And now trying to convert boolean into float, integer, string.
+in bool True will be True in String will be True
+in bool False will be False in String will be False
+"""
+
+# print(int(True))
+# print(int(False))
+# print(float(True))
+# print(float(False))
+# print(str(True))
+# print(str(False))
+
+                            ########End of the Type Casting and Type Conversion######
