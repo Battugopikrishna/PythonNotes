@@ -2,7 +2,13 @@
 This is my personal Python Notes where I can use for my future refer and also to available every thing
  in One Place"""
 """
-In the below code whatever having hashcode '#' you can remove that part of code and it will execute when you run
+before using this file you need to install python in your system and install 
+any ide software like pycharm,vs code
+watch any youtube about how to install and how to setup them in the system
+and try to learn some basics like how to run the code in the ide's in youtube.
+"""
+"""
+In the below code whatever having hashcode '#' you can remove that part of code and it will execute when you run 
 if you wish to run multipule line of code and you need remove lot of '/' then there is a tip to do in a single click
 by selecting the required code just press 'cltr + / (in windows)' 'command + /(in MacOS)'
 same if you don't want to run the code and want to comment it use  the same commands.
@@ -420,3 +426,110 @@ Logical operators ==> and, or, not
 
 
 ############End of the comparison operators and logical operators###########
+"""
+Precedence and Associativity of operators
+Consider following list of operator precedence and associativity in Python. 
+It shows all operators from highest precedence to lowest precedence.
+1. () : Parentheses (highest precedence) -> Associativity: Left to right
+2. x[index], x[index:index] : Subscription, slicing -> Associativity: Left to right
+3. await x : Await expression
+4. ** : Exponentiation -> Associativity: Right to left
+5. +x, -x, ~x : Unary plus, unary minus, bitwise NOT -> Associativity: Right to left
+6. *, @, /, //, % : Multiplication, matrix multiplication, division, floor division, remainder -> Associativity: Left to right
+7. +, - : Addition and subtraction -> Associativity: Left to right
+8. <<, >> : Bitwise shifts -> Associativity: Left to right
+9. & : Bitwise AND -> Associativity: Left to right
+10. ^ : Bitwise XOR -> Associativity: Left to right
+11. | : Bitwise OR -> Associativity: Left to right
+12. in, not in, is, is not, <, <=, >, >=, !=, == : Comparisons, membership, identity tests -> Associativity: Left to right
+13. not x : Boolean NOT -> Associativity: Right to left
+14. and : Boolean AND -> Associativity: Left to right
+15. or : Boolean OR -> Associativity: Left to right
+16. if-else : Conditional expression -> Associativity: Right to left
+17. lambda : Lambda expression
+18. := : Assignment expression (Walrus operator) -> Associativity: Right to left
+
+Precedence is nothing but priority in importance, order, or rank by the 
+priority wise the condition or any calculation will be done and output will print
+
+let's see some examples for that
+"""
+# print(5 + 10 * 6) # here as per the priority list or BODMAS rule multiplication will be first then addition
+# print((5 + 10) * 6) # here as per the priority list the calculation in the brackets is first and then multiplication
+
+#let's say
+# name = 'gopi'
+# age = 25
+# print(name == 'gopi' or name == 'mark' and age > 30) # if you normally see the condition we can think the output will be False
+# #but the result will be True because as per the priority list and operator will be first then or operator
+#
+# print((name == 'gopi' or name == 'mark') and age > 30) # now result will be different because first condition will be in the brackets
+# #second condition will be outside the brackets
+
+"""
+Now we will see the Associativity in the precedence 
+if we are using the same operators for operand then as per the above list the condition will be take
+means as per the Associativity it will consider for which side of the condition will be taken first 
+let's see some example 
+"""
+
+# print(2 ** 1 ** 3) # here the ** exponent has used in two operands now as the associativity of exponent
+# right part will be done first then left part 1**3 is 1 and 2**1 is 2 then the answers is 2.
+
+"""
+classification of operators based on the number of operands
+
+1. unary --> unary is where with one operator and one operand condition can be performed
+example :
+-10 # 10 is the one operand
+not True #here True is one operand
+
+2. binary --> binary is where with two operands and one operator the condition will be performed
+example:
+True or False # here true and False are operands
+10 - 5 # subtraction also called as unary and binary
+mostly all the comparison operators are called as binary
+
+3. Ternary --> ternary will be performed on 3 conditions and we will look into this topic in upcoming 
+condition if, if-else
+"""
+"""
+Print() Function:
+In Python, the print() function utilizes the sep parameter to define the separator between multiple items being printed.
+By default, the sep parameter is set to a single space character (' '). 
+To customize the separator, you can provide a string value to the sep parameter within the print() function call.
+Here are some examples illustrating the use of the sep parameter:
+"""
+# Default separator (space)
+print("apple", "banana", "cherry")
+
+# Custom separator (comma and space)
+print("apple", "banana", "cherry", sep=", ")
+
+# Custom separator (hyphen)
+print("apple", "banana", "cherry", sep="-")
+
+# Custom separator (newline character)
+print("apple", "banana", "cherry", sep="\n")
+
+
+"""
+While writing a big code and using the print function the output print the value
+and you might wonder what it is for 
+So if you want detail in the print statement 
+let's see the below examples:
+"""
+
+# name = 'gopi krishna'
+# age = '25'
+# print(name + age) # the output will print and after seeing the result you may think what it is for
+# #instead do it like this
+# print("Name is ", name + " " + "and his age is ", age)
+#
+# #one more example
+# val1 = 100
+# val2 = 200
+# total = val1 + val2
+# print(total) # you see the total but you may forget what values we added
+# print("val1 is ", val1, "and val2 is ", val2, "and total is ", total)
+
