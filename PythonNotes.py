@@ -500,17 +500,17 @@ By default, the sep parameter is set to a single space character (' ').
 To customize the separator, you can provide a string value to the sep parameter within the print() function call.
 Here are some examples illustrating the use of the sep parameter:
 """
-# Default separator (space)
-print("apple", "banana", "cherry")
-
-# Custom separator (comma and space)
-print("apple", "banana", "cherry", sep=", ")
-
-# Custom separator (hyphen)
-print("apple", "banana", "cherry", sep="-")
-
-# Custom separator (newline character)
-print("apple", "banana", "cherry", sep="\n")
+## Default separator (space)
+# print("apple", "banana", "cherry")
+#
+# # Custom separator (comma and space)
+# print("apple", "banana", "cherry", sep=", ")
+#
+# # Custom separator (hyphen)
+# print("apple", "banana", "cherry", sep="-")
+#
+# # Custom separator (newline character)
+# print("apple", "banana", "cherry", sep="\n")
 
 
 """
@@ -532,4 +532,43 @@ let's see the below examples:
 # total = val1 + val2
 # print(total) # you see the total but you may forget what values we added
 # print("val1 is ", val1, "and val2 is ", val2, "and total is ", total)
+
+"""
+INPUT Function:
+
+The input() function in Python is a built-in function used to obtain
+user input from the standard input (typically the keyboard). It allows for interactive programs 
+where the user can provide data during runtime.
+How it works:
+Pauses execution: When input() is called, the program's execution pauses, and it waits for the 
+user to type something and press Enter.
+Optional prompt: The function can take an optional string argument, which serves as a prompt 
+displayed to the user to guide them on what to enter.
+Returns a string: Regardless of what the user types (even if it looks like a number), 
+the input() function always returns the entered data as a string.
+Storing input: The returned string can be stored in a variable for later use in the program.
+"""
+#printing a message as per the user provided details.
+# first_name = input("Enter your first name: ")
+# last_name = input("Enter your last name: ")
+# your_age = input("Enter your age: ")
+#
+# message = "Hello, " + first_name + " " + last_name + ". Your age is " + your_age + "."
+# print(message)
+#adding 2 numbers as per the user request.
+# num1 = int(input("Enter a number: ")) #use input function inside int() because you want to take numbers from the users.
+# num2 = int(input("Enter another number: ")) #int(input()) will be define as the input will be integer not any string.
+"""
+you  may get the doubt why we need to mention 'int' before 'input' function because 
+when we use the input the system is always thinks it has a string so we need to define it as integers
+so we need to do the type casting if we are excepting any other data type other than string.
+"""
+# total = num1 + num2
+# print("The total is: ", total)
+
+# #let's see another example by finding which year you were born
+# current_year = int(input("Enter current year: "))
+# age = int(input("Enter your current age: "))
+# born_year = current_year - age
+# print("your were born in the year: ", born_year)
 
