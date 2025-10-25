@@ -388,35 +388,35 @@ not	---->Reverse the result, returns False if the result is true	not(x < 5 and x
 """
 Logical operators ==> and, or, not
 """
-#and operator
-print(True and True)
-print(True and False)
-print(False and True)
-print(False and False)
-#or operator
-print(True or False)
-print(True or True)
-print(False or True)
-print(False or False)
-#not operator
-print(not True)
-print(not False)
-#mixed of comparison operator with logical operators
-name = 'gopi'
-age = 25
-print(name == 'gopi' and age >= 18)
-print(name == 'gopi' and age >= 30)
-print(name == 'mark' and age >= 30)
-print(name == 'mark' and age >= 20)
-#or operator
-print(name == 'gopi' or age >= 30)
-print(name == 'mark' or age >= 20)
-print(name == 'gopi' or age >= 18)
-#not operator
-print(not name == 'gopi')
-print(not name == 'mark')
-print(not age >= 30)
-print(not age >= 20)
+# #and operator
+# print(True and True)
+# print(True and False)
+# print(False and True)
+# print(False and False)
+# #or operator
+# print(True or False)
+# print(True or True)
+# print(False or True)
+# print(False or False)
+# #not operator
+# print(not True)
+# print(not False)
+# #mixed of comparison operator with logical operators
+# name = 'gopi'
+# age = 25
+# print(name == 'gopi' and age >= 18)
+# print(name == 'gopi' and age >= 30)
+# print(name == 'mark' and age >= 30)
+# print(name == 'mark' and age >= 20)
+# #or operator
+# print(name == 'gopi' or age >= 30)
+# print(name == 'mark' or age >= 20)
+# print(name == 'gopi' or age >= 18)
+# #not operator
+# print(not name == 'gopi')
+# print(not name == 'mark')
+# print(not age >= 30)
+# print(not age >= 20)
 
 
 ############End of the comparison operators and logical operators###########
