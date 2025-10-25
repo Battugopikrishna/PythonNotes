@@ -332,3 +332,91 @@ and that result will re-assign to the same variable.
 
 
 ######## End of Arithmetic operators and assignment along with compound assign operators######
+
+"""
+Comparison operators and logical operators
+comparison operator [Operator
+comparing two variables using comparison operators. They are:
+==  Equal to
+Returns true if the two operands are equal.
+!=  Not equal to
+Returns true if the two operands are not equal.
+>   Greater than
+Returns true if the left operand is greater than the right operand.
+<   Less than
+Returns true if the left operand is less than the right operand.
+>=  Greater than or equal to
+Returns true if the left operand is greater than or equal to the right operand.
+<=  Less than or equal to
+Returns true if the left operand is less than or equal to the right operand.
+
+logical operator
+comparing two variables using logical operators. They are:
+and ---->Returns True if both statements are true	x < 5 and  x < 10	
+or	---->Returns True if one of the statements is true	x < 5 or x < 4	
+not	---->Reverse the result, returns False if the result is true	not(x < 5 and x < 10)
+"""
+# num1 = 100
+# num2 = 90
+# num3 = 90
+# #using == equal to
+# print(num2 == num3)
+# print(num1 == num3)
+# print('Python' == 'python')
+# print('python' == 'python')
+# #using != Not equal to (operations are always validate left operand to the right operand
+# print(num1 != num2)
+# print(num2 != num3)
+# print('Python' != 'python')
+# print('python' != 'python')
+# # > greater than operator
+# print(num1 > num2)
+# print(num2 > num1)
+# # < less than operator
+# print(num1 < num2)
+# print(num2 < num1)
+# # >= greater than or equal to operator which mean the left hand operand should be greater than the right hand operand
+# #or else left hand operand should be equal to right hand operand
+# print(num1 >= num2)
+# print(num2 >= num1)
+# print(num2 <= num3)
+# # <= less than or equal to  the operands
+# print(num2 <= num1)
+# print(num1 <= num2)
+# print(num2 <= num3)
+
+"""
+Logical operators ==> and, or, not
+"""
+#and operator
+print(True and True)
+print(True and False)
+print(False and True)
+print(False and False)
+#or operator
+print(True or False)
+print(True or True)
+print(False or True)
+print(False or False)
+#not operator
+print(not True)
+print(not False)
+#mixed of comparison operator with logical operators
+name = 'gopi'
+age = 25
+print(name == 'gopi' and age >= 18)
+print(name == 'gopi' and age >= 30)
+print(name == 'mark' and age >= 30)
+print(name == 'mark' and age >= 20)
+#or operator
+print(name == 'gopi' or age >= 30)
+print(name == 'mark' or age >= 20)
+print(name == 'gopi' or age >= 18)
+#not operator
+print(not name == 'gopi')
+print(not name == 'mark')
+print(not age >= 30)
+print(not age >= 20)
+
+
+############End of the comparison operators and logical operators###########
