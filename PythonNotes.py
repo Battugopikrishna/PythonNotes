@@ -572,3 +572,59 @@ so we need to do the type casting if we are excepting any other data type other 
 # born_year = current_year - age
 # print("your were born in the year: ", born_year)
 
+''' Now upto this topics which we covered we can try to do some code exercises'''
+'''example 1: area of triangle
+when all the sides we known the length - a, b, c
+In order to find the area of triangle with 3 sides, we use the Heron's Formula. 
+Using this, the area of a triangle (A) with 3 sides a, b, and c is calculated 
+using the formula A = √[s(s-a)(s-b)(s-c)], 
+where 's' is the semi-perimeter of the triangle given by s = (a + b + c)/2.
+for the square root in python we are Using the exponent operator '** 0.5'
+so, Now we try write the code.
+'''
+# a = float(input("Enter first side number: "))
+# b = float(input("Enter second side number: "))
+# c = float(input("Enter third side number: "))
+# 'Now Find the S Semi Perimeter of the triangle'
+# S = (a + b + c) / 2
+# 'Finding the Area of Triangle'
+# Area = (S * (S - a) * (S - b) * (S - c)) ** 0.5
+# print("The area of the triangle is ", Area)
+# print("After Rounding of the area of the triangle value is ", round(Area, 2))
+
+
+'''example 2: simple interest
+The simple interest formula is SI=(P*R*T)/100, 
+where SI is the simple interest, 
+P is the principal amount, 
+R is the annual interest rate (as a percentage), 
+and T is the time period in years. To use the formula, 
+multiply the principal by the interest rate and the time, then divide by 100.
+SI: Simple Interest (the interest earned or paid)
+P: Principal amount (the initial sum of money)
+R: Rate of interest (per year, as a percentage)
+T: Time period (in years)
+'''
+# p = float(input('Enter a number for principal amount: '))
+# r = float(input('Enter a number for annual interest rate: '))
+# t = float(input('Enter a number for time period in years: '))
+#
+# si = (p * r * t) / 100
+# print('The simple interest is', si, 'For the principal amount of', p, 'with the rate of interest @', r, 'for', t, 'years.')
+
+""" example 3: compound interest
+The compound interest formula is compound interest, CI = A - P
+where A is Amount = P(1 + R/100) ** T
+"""
+
+# p = float(input('Enter a number for principal amount: '))
+# r = float(input('Enter a number for annual interest rate: '))
+# t = float(input('Enter a number for time period in years: '))
+#
+# Amount = p * (1 + r/100) ** t
+# CI = Amount - p
+#
+# print('The compound interest is', round(CI, 2))
+
+
+"""Now we learning the topic 'Slicing the strings'"""
